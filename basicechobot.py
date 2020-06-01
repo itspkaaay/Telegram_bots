@@ -20,7 +20,7 @@ def error(update,context) :
      Logger.logger.error("error '%s' due to '%s",context,context.error) 
     
 
-TOKEN = '1279310117:AAGYBsOMxsr05upeTHFHm5f6bPx8bCGNkOA'
+TOKEN = '267397436928349256364896895648'
 updater = Updater(token=TOKEN,use_context=True)
 
 dispatcher = updater.dispatcher
